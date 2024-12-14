@@ -1,0 +1,96 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Typography */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #ffdd59;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p, ul, ol {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+/* Input and Button */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px 20px;
+    background: #ff6f61;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff4757;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #f1f1f1;
+}
+
+footer a {
+    color: #ffdd59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
